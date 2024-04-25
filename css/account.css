@@ -1,0 +1,12 @@
+.info-user-block {
+    width: 60%;
+    margin: 20px auto;
+}
+
+#updUserForm {
+    margin-top: 20px;
+}
+
+.info-user-block .heading-2 {
+    text-align: center;
+}

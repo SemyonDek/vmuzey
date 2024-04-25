@@ -1,0 +1,133 @@
+.question-block {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.question-block table {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+thead {
+    font-weight: 500;
+    background-color: #1212b2;
+}
+
+thead td {
+    padding: 10px 5px;
+    border: 1px solid #1212b2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+td {
+    border: 1px solid #e6e6eb;
+    text-align: center;
+    padding: 10px;
+}
+
+.number-td {
+    width: 6%;
+}
+
+.question-td {
+    width: 64%;
+}
+
+.visible-td {
+    width: 15%;
+}
+
+.info-td {
+    width: 15%;
+}
+
+.info-td a {
+    color: blue;
+}
+
+.question-block p {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.question-block strong {
+    display: block;
+    width: 180px;
+    margin-right: 20px;
+}
+
+#addAnswerForm, #updQuestionForm, #updOrderForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#addAnswerForm textarea {
+    display: block;
+    font-family: "TT Norms", sans-serif;
+    font-size: 15px;
+    width: 50%;
+    height: 10em;
+    padding: 1em 1em 2em;
+    border: 1px solid #e6e6eb;
+    line-height: 1.25em;
+    background-color: #f8f9fa;
+    color: #595959;
+    border-radius: 0.75em;
+    -webkit-transition: border-color .2s ease;
+    -o-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+    resize: none;
+    margin: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#addAnswerForm textarea:focus {
+    background-color: #fff;
+}
+
+.upd-question {
+    align-items: center;
+    background-color: #1212b2;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "TT Norms", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: .25s cubic-bezier(.22, 1, .36, 1);
+    will-change: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+
+#updQuestionForm select {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#updOrderForm select {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

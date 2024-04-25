@@ -1,0 +1,119 @@
+.city-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item-country-block:hover {
+    transform: translateY(0);
+    color: #1212b2;
+}
+
+.item-country:first-child .item-country-block:hover {
+    background-color: #fff;
+    color: #1212b2;
+}
+
+.button-city-add {
+    align-items: center;
+    background-color: #1212b2;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "TT Norms", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: .25s cubic-bezier(.22, 1, .36, 1);
+    will-change: auto;
+    margin-top: 20px;
+}
+
+.city-block-add {
+    margin-top: 30px;
+}
+
+.button-city-add-form {
+    align-items: center;
+    background-color: #1212b2;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "TT Norms", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: .25s cubic-bezier(.22, 1, .36, 1);
+    will-change: auto;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.button-upd-block {
+    margin-top: 30px;
+}
+
+.name-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+    border: 1px solid #e6e6eb;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: inherit;
+    height: 40px;
+    padding: 0 16px;
+    transition: border-color .25s cubic-bezier(.22, 1, .36, 1), background-color .25s cubic-bezier(.22, 1, .36, 1);
+    width: 400px;
+    will-change: border-color, background-color;
+}
+
+.btn-img-block {
+    margin-top: 10px;
+}
+
+.btn-img-block input[type=file] {
+    width: 300px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.btn-img-block input[type=file]::file-selector-button,
+.btn-img-block input[type=button] {
+    margin-right: 20px;
+    border: none;
+    background-color: #1212b2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.block-img {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e6e6eb;
+}
+
+.block-img img {
+    max-width: 100px;
+    max-height: 100px;
+}

@@ -1,0 +1,83 @@
+.line-catalog-link {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+}
+
+.catalog-link-item {
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #BEBFD1;
+    margin-right: 40px;
+}
+
+.active-catalog-link {
+    color: #FFFFFF;
+}
+
+.catalog-link-museum:hover {
+    color: #1212B2;
+}
+
+.catalog-link-event:hover {
+    color: #FFBF00;
+}
+
+.catalog-link-museum.active-catalog-link {
+    background-color: #1212B2;
+    color: #FFFFFF;
+}
+
+.catalog-link-museum.active-catalog-link:hover {
+    background-color: #4545e5;
+}
+
+.catalog-link-event.active-catalog-link {
+    background-color: #FFBF00;
+    color: #FFFFFF;
+}
+
+.catalog-link-event.active-catalog-link:hover {
+    background-color: rgba(255, 191, 0, .8);
+}
+
+.block-heading-right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-product-add {
+    align-items: center;
+    background-color: #1212b2;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "TT Norms", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: .25s cubic-bezier(.22, 1, .36, 1);
+    will-change: auto;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+.title-country-block-line-product-add {
+    margin-bottom: 30px;
+}

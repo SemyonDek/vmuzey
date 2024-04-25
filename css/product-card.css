@@ -1,0 +1,663 @@
+.product-img-block-padding {
+    margin-bottom: 50px;
+    padding-top: 25px;
+}
+
+.product-img-block {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+}
+
+.swipe-product-img-block {
+    position: absolute;
+    top: 0;
+    left: 197.5px;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: 0.3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.product-img-item-block {
+    min-width: 820px;
+    width: 820px;
+    height: 440px;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.product-img-item-block img {
+    max-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.button-product-img-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.button-product-img-item {
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .25s cubic-bezier(.22, 1, .36, 1);
+}
+
+.button-product-img-item.button-product-img-item-active:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#left-button-slider:hover {
+    background: linear-gradient(-90deg, rgba(0, 0, 255, 0) 72%, rgba(0, 0, 0, .2));
+}
+
+#right-button-slider:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 255, 0) 72%, rgba(0, 0, 0, .2));
+}
+
+.button-product-img-item>div {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.vm-gallery-controls-button-arrow-icon {
+    color: #fff;
+    position: absolute;
+}
+
+.vm-gallery-controls-button-arrow-icon_left {
+    left: 70px;
+}
+
+.vm-gallery-controls-button-arrow-icon_right {
+    right: 70px;
+}
+
+.product-info-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.left-product-info-block {
+    width: calc(100% - 527px);
+}
+
+.title-product-line {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 25px;
+}
+
+.title-name-block {
+    width: 657px;
+    margin-right: 20px;
+}
+
+.heart-favorite-block {
+    background-color: #fff;
+    border: 0;
+    font: inherit;
+    outline: none;
+    padding: 0;
+    margin-top: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.heart-favorite-block>div {
+    cursor: pointer;
+
+}
+
+.heart-favorite-block path {
+    opacity: 1;
+    transition: opacity .25s cubic-bezier(.22, 1, .36, 1);
+}
+
+.heart-favorite-block path.display-none {
+    opacity: 0;
+}
+
+.basic-information-block {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f3f3f6;
+    margin-bottom: 40px;
+}
+
+.basic-information-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.basic-information-item:last-child {
+    margin-bottom: 0;
+}
+
+.icon-text-link-icon {
+    color: #1212b2;
+    display: inline-flex;
+    flex-shrink: 0;
+    margin-right: 12px;
+    min-width: 15px;
+}
+
+.basic-information-item p {
+    color: #3b3b5b;
+    height: 19.5px;
+}
+
+.description-block {
+    margin-bottom: 40px;
+}
+
+.contacts-title-block {
+    margin-bottom: 30px;
+}
+
+.contacts-item-block {
+    margin-bottom: 35px;
+}
+
+.contacts-item-title-block {
+    margin-bottom: 12px;
+}
+
+.contacts-block-subtitle {
+    color: #bebfd1;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contacs-items-info-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacs-item-info-block {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 33%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.contacs-item-info-block p {
+    color: #3b3b5b;
+    height: 19.5px;
+}
+
+.right-product-info-block {
+    width: 460px;
+}
+
+.main-buy-block {
+    width: 100%;
+    border: 1px solid #f3f3f6;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px rgba(17, 17, 39, .12);
+    position: relative;
+}
+
+.main-buy-item-block {
+    width: 100%;
+    height: auto;
+}
+
+.tickets-main-block {}
+
+
+.title-buy-item-block {
+    align-items: center;
+    border-bottom: 2px solid #f3f3f6;
+    display: flex;
+    justify-content: center;
+    padding: 27px 40px 23px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.25;
+    position: relative;
+}
+
+.button-back-buy {
+    position: absolute;
+    top: 27px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.buy-item-content-block {
+    height: 100%;
+    padding: 30px 40px;
+}
+
+.sidebar-museum-empty-message {
+    color: #111127;
+    text-align: center;
+}
+
+.sub-title-input-tickets-form {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #bebfd1;
+    margin-bottom: 5px;
+}
+
+.type-tickets-input-block {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+
+.type-tickets-input-button-block {
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f3f3f6;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    min-height: 50px;
+    position: relative;
+    transition: .25s cubic-bezier(.22, 1, .36, 1);
+    width: 100%;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.vm-arrow {
+    display: block;
+}
+
+.vm-select-custom__arrow {
+    color: #1212b2;
+    height: auto;
+    position: absolute;
+    right: 21px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+}
+
+.vm-arrow .vm-arrow__img {
+    display: inline-block;
+    transition: transform .25s cubic-bezier(.22, 1, .36, 1);
+}
+
+.vm-arrow.vm-arrow--up .vm-arrow__img {
+    position: relative;
+    transform: rotate(-180deg);
+}
+
+.vm-arrow .vm-arrow__img .vm-icon-svg {
+    height: 10px;
+    width: 10px;
+}
+
+.vm-select-custom__selected-option {
+    align-items: center;
+    display: inline-flex;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 0 40px 0 18px;
+}
+
+.select-ticket-option_selected-option {
+    background-color: #fff;
+    padding: 15px 15px 15px 2px;
+}
+
+.select-ticket-option-main {
+    display: flex;
+    margin-bottom: 3px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.select-ticket-option_selected-option .select-ticket-option-main {
+    display: inline-flex;
+    max-width: 320px;
+}
+
+.select-ticket-option-title {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.select-ticket-option-description {
+    color: #1212b2;
+}
+
+.vm-select-custom__placeholder {
+    color: #bebfd1;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.vm-dropdown {
+    background-color: #fff;
+    border: 1px solid #e6e6eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(17, 17, 39, .2);
+    display: block;
+    line-height: 1.3;
+    overflow: auto;
+    width: 100%;
+}
+
+.vm-select-custom__dropdown {
+    max-height: 290px;
+    min-width: 100%;
+    padding: 0;
+    position: absolute;
+    width: auto;
+    z-index: 7;
+}
+
+.vm-select-custom__dropdown.vm-select-custom__dropdown--bottom-position {
+    top: calc(100% + 5px);
+    transition: opacity 0.3s, top 0.1s;
+}
+
+.vm-select-custom__dropdown.vm-select-custom__dropdown--bottom-position.menu-filter-hidden {
+    opacity: 0;
+    pointer-events: none;
+    top: 100%;
+}
+
+.select-menu-ticket-option {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.select-menu-ticket-option:hover {
+    background-color: #ccd0ff;
+}
+
+.select-menu-ticket-option.select-menu-ticket-option-active {
+    background-color: #ccd0ff;
+}
+
+.category-tickets-block {
+    margin-bottom: 25px;
+}
+
+.category-tickets-item {
+    align-items: center;
+    border: 1px solid #f3f3f6;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.category-tickets-item:last-child {
+    margin-bottom: 0;
+}
+
+.name-category-tickets-block {
+    padding-right: 20px;
+}
+
+.name-category-tickets {
+    color: #3b3b5b;
+}
+
+.price-category-tickets {
+    color: #1212b2;
+    font-weight: 600;
+}
+
+.value-category-tickets-block {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.button-value-category {
+    align-items: center;
+    border: 1px solid #bebfd1;
+    border-radius: 5px;
+    color: #bebfd1;
+    cursor: pointer;
+    display: flex;
+    font-size: 17px;
+    height: 24px;
+    justify-content: center;
+    transition: all .25s cubic-bezier(.22, 1, .36, 1);
+    width: 24px;
+}
+
+.button-value-category:hover {
+    border-color: #1212b2;
+    color: #1212b2;
+}
+
+.value-category-tickets {
+    border: none;
+    color: #1212b2;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 4px;
+    text-align: center;
+    width: 32px;
+}
+
+.amount-buy-block {
+    padding-top: 27px;
+    position: relative;
+}
+
+.sidebar-museum-tickets-delimiter {
+    border-top: 2px solid #f9f9fa;
+    left: -40px;
+    position: absolute;
+    top: 0;
+    width: calc(100% + 80px);
+}
+
+.line-amount-tickets-block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.line-amount-tickets-block:last-child {
+    margin-bottom: 0;
+}
+
+.name-line-amount {
+    color: #bebfd1;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button-buy-block {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.button-buy-button {
+    width: 100%;
+    align-items: center;
+    background-color: #1212b2;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "TT Norms", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: .25s cubic-bezier(.22, 1, .36, 1);
+    will-change: auto;
+
+}
+
+.button-buy-button:hover {
+    background-color: #4545e5;
+}
+
+.main-buy-block>.display-none {
+    display: none;
+}
+
+.selected-tickets-block {
+    margin-bottom: 20px;
+}
+
+.name-selected-type-tickets {
+    color: #3b3b5b;
+    font-weight: 600;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.item-selected-category-tickets {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.item-selected-category-tickets:last-child {
+    margin-bottom: 0;
+}
+
+.value-selected-category {
+    color: #3b3b5b;
+    flex-shrink: 0;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.input-order-block {
+    margin-bottom: 15px;
+}
+
+.line-input-order-item {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.name-input-order {
+    align-items: center;
+    display: flex;
+    height: 19px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.name-input-order p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* border-color: #f23d00; */
+
+.input-order-item-block {
+    margin-top: 6px;
+}
+
+.input-order-item-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+    border: 1px solid #e6e6eb;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: inherit;
+    height: 50px;
+    padding: 0 16px;
+    transition: border-color .25s cubic-bezier(.22, 1, .36, 1),
+        background-color .25s cubic-bezier(.22, 1, .36, 1);
+    width: 100%;
+    will-change: border-color, background-color;
+}
+
+.input-order-item-input:focus {
+    border-color: #4545e5;
+}
+
+::-webkit-input-placeholder {
+    color: #bebfd1;
+}
+
+::-moz-placeholder {
+    color: #bebfd1;
+}
+
+:-moz-placeholder {
+    color: #bebfd1;
+}
+
+:-ms-input-placeholder {
+    color: #bebfd1;
+}

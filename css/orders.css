@@ -1,0 +1,55 @@
+.orders-block {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#orders-table {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+thead {
+    font-weight: 500;
+    background-color: #1212b2;
+}
+
+thead td {
+    padding: 10px 5px;
+    border: 1px solid #1212b2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+td {
+    border: 1px solid #e6e6eb;
+    text-align: center;
+    padding: 10px;
+}
+
+.number-td {
+    width: 5%;
+}
+
+.product-td {
+    width: 50%;
+}
+
+.sum-td {
+    width: 15%;
+}
+
+.status-td {
+    width: 15%;
+}
+
+.info-td {
+    width: 15%;
+}
+
+.info-td a {
+    color: blue;
+}
